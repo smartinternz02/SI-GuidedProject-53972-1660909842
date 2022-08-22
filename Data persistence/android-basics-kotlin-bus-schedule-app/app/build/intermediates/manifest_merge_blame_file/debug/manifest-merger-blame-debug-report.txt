@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2021 The Android Open Source Project
+4     Licensed under the Apache License, Version 2.0 (the "License");
+5     you may not use this file except in compliance with the License.
+6     You may obtain a copy of the License at
+7
+8          http://www.apache.org/licenses/LICENSE-2.0
+9
+10     Unless required by applicable law or agreed to in writing, software
+11     distributed under the License is distributed on an "AS IS" BASIS,
+12     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13     See the License for the specific language governing permissions and
+14     limitations under the License.
+15-->
+16<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+17    package="com.example.busschedule"
+18    android:versionCode="1"
+19    android:versionName="1.0" >
+20
+21    <uses-sdk
+22        android:minSdkVersion="19"
+22-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml
+23        android:targetSdkVersion="32" />
+23-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml
+24
+25    <application
+25-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:19:5-34:19
+26        android:name="com.example.busschedule.BusScheduleApplication"
+26-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:20:9-70
+27        android:allowBackup="true"
+27-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:21:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\0f075a3404d4ba5105780b5799463ece\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:22:9-43
+31        android:label="@string/app_name"
+31-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:23:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:24:9-54
+33        android:supportsRtl="true"
+33-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:25:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.BusSchedule" >
+35-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:26:9-49
+36        <activity
+36-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:27:9-33:20
+37            android:name="com.example.busschedule.MainActivity"
+37-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:27:19-70
+38            android:exported="true" >
+38-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:28:13-36
+39            <intent-filter>
+39-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:29:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:30:17-69
+40-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:31:17-77
+42-->D:\interz projects\data persistence\android-basics-kotlin-bus-schedule-app\app\src\main\AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <uses-library
+46-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+47            android:name="androidx.window.extensions"
+47-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+49        <uses-library
+49-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+50            android:name="androidx.window.sidecar"
+50-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\6a222914c1ff3f2ebfc0e3069b91dfe3\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+52
+53        <service
+53-->[androidx.room:room-runtime:2.4.2] C:\Users\dell\.gradle\caches\transforms-3\290fee80b2abd13efde70cb8191be138\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+54            android:name="androidx.room.MultiInstanceInvalidationService"
+54-->[androidx.room:room-runtime:2.4.2] C:\Users\dell\.gradle\caches\transforms-3\290fee80b2abd13efde70cb8191be138\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+55            android:directBootAware="true"
+55-->[androidx.room:room-runtime:2.4.2] C:\Users\dell\.gradle\caches\transforms-3\290fee80b2abd13efde70cb8191be138\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+56            android:exported="false" />
+56-->[androidx.room:room-runtime:2.4.2] C:\Users\dell\.gradle\caches\transforms-3\290fee80b2abd13efde70cb8191be138\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+60            android:authorities="com.example.busschedule.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\f6ab84404966eeb630ca3f46f13254bf\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\76db47c990794de7d4d93818454f468a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\76db47c990794de7d4d93818454f468a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\76db47c990794de7d4d93818454f468a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
